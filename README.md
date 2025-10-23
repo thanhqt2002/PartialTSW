@@ -1,5 +1,10 @@
 # Tree-Sliced Entropy Partial Transport
 
+[![Conference](https://img.shields.io/badge/NeurIPS-2025-blue)](https://neurips.cc/Conferences/2025)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+📄 **Paper**: [Tree-Sliced Entropy Partial Transport](https://openreview.net/forum?id=41ZbysfW4h) (NeurIPS 2025)
+
 ## Requirements
 To install the required python packages, run
 ```
@@ -76,7 +81,7 @@ If you find this work useful, please cite our paper:
     author={Tran, Viet-Hoang and Tran, Thanh and Chu, Thanh and Le, Tam and Nguyen, Tan M.},
     booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
     year={2025},
-    url={https://openreview.net/forum?id=TBD}
+    url={https://openreview.net/forum?id=41ZbysfW4h}
 }
 ```
 
