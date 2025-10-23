@@ -76,7 +76,7 @@ Our codebase is based upon works on Partial Optimal Transport and Tree-Sliced Wa
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{tran2025partial,
+@inproceedings{tran2025partialtsw,
     title={Tree-Sliced Entropy Partial Transport},
     author={Tran, Viet-Hoang and Tran, Thanh and Chu, Thanh and Le, Tam and Nguyen, Tan M.},
     booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
