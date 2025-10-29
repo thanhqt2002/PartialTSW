@@ -5,8 +5,10 @@
 
 📄 **Paper**: [Tree-Sliced Entropy Partial Transport](https://openreview.net/forum?id=41ZbysfW4h) (NeurIPS 2025)
 
+> Tree-Sliced Entropy Partial Transport (PartialTSW) extends Tree-Sliced Wasserstein (TSW) distances to *unbalanced measures* and has the **closed-form formulation** suitable for **dynamic-support distributions** such as those used in generative modeling. To our knowledge, no prior sliced-Wasserstein variant provides a closed-form formulation for unbalanced transport.
+
 ## Requirements
-To install the required python packages, run
+To install the required Python packages, run
 ```
 conda env create --file=environment.yaml
 conda activate partial
