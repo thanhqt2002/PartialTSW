@@ -5,7 +5,7 @@
 
 📄 **Paper**: [Tree-Sliced Entropy Partial Transport](https://openreview.net/forum?id=41ZbysfW4h) (NeurIPS 2025)
 
-> Tree-Sliced Entropy Partial Transport (PartialTSW) extends Tree-Sliced Wasserstein (TSW) distances to *unbalanced measures* and has the **closed-form formulation** suitable for **dynamic-support distributions** such as those used in generative modeling. To our knowledge, no prior sliced-Wasserstein variant provides a closed-form formulation for unbalanced transport.
+> Tree-Sliced Entropy Partial Transport (PartialTSW) extends Tree-Sliced Wasserstein (TSW) distances to *unbalanced measures*. It has the *closed-form formulation* suitable for dynamic-support distributions such as those used in generative modeling. To our knowledge, no prior sliced-Wasserstein variant provides a closed-form formulation for unbalanced transport.
 
 ## Requirements
 To install the required Python packages, run
@@ -56,7 +56,7 @@ print(f"Partial TSW Distance: {distance:.4f}")
 
 ## Experiments
 
-The repository includes comprehensive experiments demonstrating the method's effectiveness across different applications. Each experiment folder contains detailed instructions and implementation:
+The repository includes comprehensive experiments demonstrating the method's effectiveness across applications. Each experiment folder contains detailed instructions and implementation:
 
 * **`experiments/point_cloud/`** - Point cloud gradient flow
 * **`experiments/image_gen/`** - Image generation
@@ -71,7 +71,7 @@ Additional analysis code is provided in the `analysis/` folder:
 
 ## Acknowledgments
 
-Our codebase is based upon works on Partial Optimal Transport and Tree-Sliced Wasserstein. 
+Our codebase is based on work in Partial Optimal Transport and Tree-Sliced Wasserstein, including [Db-TSW](https://github.com/Fsoft-AIC/DbTSW) and [NonlinearTSW](https://github.com/thanhqt2002/NonlinearTSW).
 
 ## Citation
 
